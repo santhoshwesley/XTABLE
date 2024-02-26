@@ -1,0 +1,45 @@
+.XTable {
+  text-align: center;
+}
+
+.XTable h1 {
+  margin-bottom: 20px;
+}
+
+.XTable button {
+  margin: 10px;
+  padding: 8px 16px;
+  font-size: 16px;
+  cursor: pointer;
+  border: 1px solid #333;
+  background-color: #fff;
+  color: #333;
+  border-radius: 4px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.XTable button:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+.XTable table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.XTable th,
+.XTable td {
+  padding: 10px;
+  border: 1px solid #333;
+}
+
+.XTable th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.XTable tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
